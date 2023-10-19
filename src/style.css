@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  
+  background-color: black;
+  color: white;
+  text-decoration: none;
+
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+ .link {
+   text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: hsl(276.9deg 87.4% 55%);
+  }
+.rep-content{
+   margin: 0 40px;
+  margin-bottom: 20px;
+  padding: 15px 20px ;
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px hsl(0deg, 0%, 100% );
+  /* border: 1px solid hsl(0deg, 0%, 100% );  */
+   background-color: hsl(0deg, 0%, 100% );
+   color: black;
+   font-weight: 400;
+  
+ }
+.rep-name{
+  font-size: 18px;
+  color: hsl(276.9deg 87.4% 55%);
+}
+.project-title{
+  font-size: 20px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:10px;
+  margin-bottom: 25px; 
+}
+.btn{
+   display: flex;
+   gap: 12px;
+   justify-content: center;
+   align-items: center;
+}
+.prev-page, .next-page {
+  box-shadow: 1px 2px 8px hsl(0deg, 0%, 100% );
+  border: 1px solid hsl(0deg, 0%, 100% );
+  padding: 10px;
+
+}
+ #repodetail{
+  margin: 0 auto;
+  max-width: 400px;
+   
+ }
+.repodetail-card{
+  margin :50px 0 40px 0;
+  color: black;
+   background-color: hsl(0deg, 0%, 100% ); 
+  padding: 30px 40px;
+  border-radius: 10px;
+  border-bottom-right-radius: 130px;
+  box-shadow: 1px 2px 8px hsl(0deg, 0%, 100% );
+  /* border: 1px solid hsl(0deg, 0%, 100% ); */
+
+}
+.repo-mini-details{
+  display: flex;
+  justify-content: space-between;
+    
+}
+.flex >p {
+  padding: 10px 0;
+}
+  .view-git{
+    text-align: center;
+  }
+.home-btn{
+  text-align: center;
+  margin: 0;
+}
+.home-btn .linked{
+  box-shadow: 1px 2px 8px hsl(0deg, 0%, 100% );
+  border: 1px solid hsl(0deg, 0%, 100% );
+    padding: 10px;
+     color: hsl(0deg, 0%, 100% );
+}
+.veiw-link{
+  text-align: center;
+}
+ .icons{
+  color: hsl(276.9deg 87.4% 55%);
+}
+ .repo-name{
+   color: hsl(276.9deg 87.4% 55%);
+   text-align: center;
+   text-transform: capitalize;
+ }
+ .error-page{
+     margin: 0 auto;
+    max-width: 400px;
+  
+ }
+ #avatar{
+  width: 200px;
+  margin-left: -70px;
+  
+}
+ .avatar{
+   width: 100%;
+   border: 50%;
+ }
+#profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btns{
+  margin-bottom: 10px;
+}
+.btns a button{
+  padding:5px  10px ;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+.profile_name{
+  margin-top: 0;
+}
+@media (min-width:700px){
+   .repo-container{
+     display: grid;
+     grid-auto-rows: max-content;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+   }
+   .rep-content{
+    margin: 0 ;
+   }
+}
