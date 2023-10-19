@@ -67,16 +67,15 @@ These resources were useful in helping me build this project
 
 - [How-to-write-a-good-readme-for-your-github-project](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project)
 - [Learning About box shadow and colors](https://www.joshwcomeau.com/css/designing-shadows/)
-- [Netlify  Error message "Build failed"]([https://www.youtube.com/watch?v=JCM_xoWbF70](https://stackoverflow.com/questions/65965353/netlify-build-command-failed-create-react-app-locally-deployed-ok))
+- [Netlify  Error message "Build failed"](https://stackoverflow.com/questions/65965353/netlify-build-command-failed-create-react-app-locally-deployed-ok)
 - [React Router tutorial](https://reactrouter.com/en/main/start/tutorial)
 - [Github - List repositories for a user](https://docs.github.com/en/rest/repos/repos#list-repositories-for-a-user)
 - [Blog by mbonamensa](https://blog.devgenius.io/how-i-implemented-an-api-fetch-of-my-github-53b2234dfc51)
 
   
-### Author 
+## Author 
  ENOFUA ETUE DIVINE
 
-## Author
+ 
 
-- Website - [Maame Yaa Serwaa Bona-Mensa](https://mbonamensa.netlify.app)
-- Twitter - [@mys_bm](https://www.twitter.com/mys_bm)
+ 
