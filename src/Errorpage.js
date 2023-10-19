@@ -9,7 +9,7 @@ function ErrorPage() {
     <div className="error-page">
       <h1>oops!</h1>
       <p className="error-status">{error.status}</p>
-      <p className="error-status-text"><em>{error.statusText}</em></p>
+      <p className="error-status-text"><em> Page {error.statusText}</em></p>
  <p className="home-btn"> <Link className="linked"  to="/"><b>Home Page</b></Link></p>
     </div>
   )
