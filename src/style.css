@@ -111,9 +111,10 @@ h1 {
    text-transform: capitalize;
  }
  .error-page{
-     margin: 0 auto;
-    max-width: 400px;
-  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
  }
  #avatar{
   width: 200px;
