@@ -116,6 +116,19 @@ h1 {
     flex-direction: column;
     font-size: 20px;
  }
+.error-status{
+   font-size: 50px;
+   margin: 0;
+   padding: 0;
+ }
+ .error-status-text{
+font-size: 20px;
+ }
+ .error-text{
+   font-size: 60px;
+   margin: 0;
+   padding-bottom: 15px;
+ }
  #avatar{
   width: 200px;
   margin-left: -70px;
