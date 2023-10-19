@@ -11,8 +11,9 @@ function Home() {
 
 
   const getRepos =  () => {
-    fetch(`https://api.github.com/users/divineenofua/repos?per_page=3&page=${page}`).then((response)
-    => (response.json())).then((data) => {
+    fetch(`https://api.github.com/users/divineenofua/repos?per_page=3&page=${page}`)
+    .then((response) => (response.json()))
+    .then((data) =>  {
  
         setRepo([ ...data])
         
