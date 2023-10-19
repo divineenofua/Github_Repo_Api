@@ -24,27 +24,27 @@ This is a solution to the GitHub Portfolio exam project given by AltSchool Afric
 ### Screenshots
 
 Home page
-
-![Screenshot (60)](https://user-images.githubusercontent.com/85899285/200161939-f482a2b2-04db-42d5-be2d-cfa5a2cadfea.png)
+ 
+![Screenshot1 2023-10-19 035909](https://github.com/divineenofua/Github_Repo_Api/assets/96786772/93f62606-e026-4575-b6d3-f85cb8d1a234)
 
 Details Page
 
-![Screenshot (61)](https://user-images.githubusercontent.com/85899285/200161968-89989096-5ffc-4128-841e-4a8d84cbc1fb.png)
+ ![Screenshot2 2023-10-19 040104](https://github.com/divineenofua/Github_Repo_Api/assets/96786772/1cdf29c8-0d4c-42cd-b656-5b30aae9059b)
 
 
 Error Page
 
-![image](https://github.com/divineenofua/Github_Repo_Api/assets/96786772/c2f72476-5ee0-4f9c-84e1-ed7863 d641fb)
+ ![Screenshot3 2023-10-19 040145](https://github.com/divineenofua/Github_Repo_Api/assets/96786772/b55dc1b1-1f6c-4b64-b68b-1af8efb52a4d)
 
 ### Links
 
-- Live Site URL: [Maame's GitHub](https://githubportfolio-maame.netlify.app/)
+- Live Site URL: [Dee's GitHub](https://main--spiffy-kleicha-476f82.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- React commponents, props, useState, useEffect, createBrowserRouter, fetch API
+- React commponents, props, useState, useEffect, Router, fetch API, React Pagination
 
 ### What I learned
 
@@ -54,21 +54,27 @@ Error Page
 - Depolying React Routed sites to netlify
 - Implementing pagination using the GitHub API
 - Creating error boundaries and implementing error pages
+- Writing a descriptive README
+- Learnt How to Read Error messages and log
+- Fixed Bugs In codes
 
-
-### Continued development
-
-This was my first time working with most of the concepts I used in building the project. I plan to learn more about APIs, React Hooks and implementing SEOs.
+ 
 
 
 ### Useful resources
 
 These resources were useful in helping me build this project
 
-- [Different Ways to fetch data from API in Reactjs](https://statusneo.com/different-ways-to-fetch-data-from-api-in-reactjs/) 
-- [Netlify React 'Page Not Found' Solution](https://www.youtube.com/watch?v=JCM_xoWbF70)
+- [How-to-write-a-good-readme-for-your-github-project](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project)
+- [Learning About box shadow and colors](https://www.joshwcomeau.com/css/designing-shadows/)
+- [Netlify  Error message "Build failed"]([https://www.youtube.com/watch?v=JCM_xoWbF70](https://stackoverflow.com/questions/65965353/netlify-build-command-failed-create-react-app-locally-deployed-ok))
 - [React Router tutorial](https://reactrouter.com/en/main/start/tutorial)
 - [Github - List repositories for a user](https://docs.github.com/en/rest/repos/repos#list-repositories-for-a-user)
+- [Blog by mbonamensa](https://blog.devgenius.io/how-i-implemented-an-api-fetch-of-my-github-53b2234dfc51)
+
+  
+### Author 
+ ENOFUA ETUE DIVINE
 
 ## Author
 
