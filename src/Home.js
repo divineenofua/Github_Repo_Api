@@ -7,19 +7,15 @@ function Home() {
 
   const [repo, setRepo] = useState([]);
   const [page, setPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
-  const [view, setView] = useState("");
+  
 
 
   const getRepos =  () => {
     fetch(`https://api.github.com/users/divineenofua/repos?per_page=3&page=${page}`).then((response)
     => (response.json())).then((data) => {
-
-      // if (data.length === 0){
-      //   setView("End of Repos")
-      // }else{
+ 
         setRepo([ ...data])
-        setView("Next")
+        
       
        
       // setTotalPages(Math.ceil(data.length / 3));
@@ -66,7 +62,7 @@ function Home() {
      </section>
      <div className="btn"> 
      <p className="prev-page" onClick={handleClickPrev}> Prev </p>
-     <p className="next-page" onClick={handleClickNext}>{view}</p>
+     <p className="next-page" onClick={handleClickNext}>Next</p>
       </div>
      </>
   )
