@@ -46,7 +46,7 @@ Error Page
 
 - React commponents, props, useState, useEffect, Router, fetch API, React Pagination
 
-### What I learned
+### What I learnt
 
 - How to fetch data from an external source using `fetch()`
 - Adding routes to react apps using React Router v6
